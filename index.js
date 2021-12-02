@@ -20,7 +20,7 @@ function onChangeDocument() {
     sDocumento = $(this).val()
 
     var formData = new FormData();
-    formData.append("token", "2UNujeomioME3I3m9fM7mmngxA9AhJBI0mBVzCf7h4yOq0uCFlZg2L500jvT");
+    formData.append("token", "p5z22TtQFfcQyZU3i5AFNr9AOCTOo2FdEsDZbBE60mt4BolkDpJswmAX6ADh");
     formData.append("ruc", sDocumento);
     var request = new XMLHttpRequest();
 
